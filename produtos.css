@@ -98,3 +98,17 @@ nav a:hover
     margin: 10px 0 0 0;
 }
 
+footer
+{
+    text-align: center;
+    background: url(Imagens/bg.jpg);
+    padding: 20px;
+}
+.copyright
+{
+    color: #ffffff;
+    margin-top: 20px;    
+}
+
+
+
