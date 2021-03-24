@@ -1,0 +1,64 @@
+<!Doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Style.css">
+        <title>Contato</title>
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img src="Imagens/logo.png"></h1>
+                
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Principal</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="nomeSobrenome">Nome e sobrenome:</label>
+                <input title="nome" type="text" id="nomeSobrenome">
+                
+                <label for="email">E-mail:</label>
+                <input title="e-mail" type="text" id="email">
+            
+                <label for="telefone">Telefone:</label>
+                <input title="telefone" type="text" id="telefone">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea cols="50" rows="10" id="mensagem"></textarea>
+
+                <div>
+                    <p>Como prefere ser contatado?</p>
+                    <label for="emailRadio">E-mail</label>
+                    <input type="radio" name="contatoRadio"  value="email" id="emailRadio">
+
+                    <label for="telefoneRadio">Telefone</label>
+                    <input type="radio" name="contatoRadio" value="telefone" id="telefoneRadio">
+
+                    <label for="whatsappRadio">Whatsapp</label>
+                    <input type="radio" name="contatoRadio" value="whatsapp" id="whatsappRadio">
+                </div>
+                
+                
+                <label for="checkBoxNovidade">
+                    <input type="checkbox" value="receberNovidade" id="checkBoxNovidade"> Gostaria de receber nossas novidades por email?                
+                </label>
+                    
+                <input type="submit" value="Enviar formulário">
+            </form>
+        </main>
+
+        <footer>
+            <img src="Imagens/logo-branco.png">
+            <p class="copyright">&#169;Copyright Barbearia Alura</p>
+        </footer>
+    </body>
+</html>

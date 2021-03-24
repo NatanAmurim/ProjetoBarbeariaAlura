@@ -1,58 +1,142 @@
-.titulo
+header
 {
-    padding-left: 20px;   
-}
-#banner
-{
-    width: 100%;
-}
-.principal
-{
-    background: #f0ffff;
-    padding: 5px;
+    
+    background: #CCCCCC;
+    padding: 15px 0;
 }
 
-.tituloCentralizado
+.caixa
 {
+    position: relative;
+    width: 940px;
+    margin: 0 auto; 
+}
+
+.logo
+{
+    display: inline-block;
+}
+
+nav
+{
+    position: absolute;
+    top: 100px;
+    right: 1%;
+
+}
+
+nav li
+{
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a 
+{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration-line: none;
+}
+
+nav a:hover
+{
+    color: #2d47da;  
+}
+
+.produtos
+{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.produtos li
+{
+    display: inline-block;
     text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border:2px solid #000000;
+    border-radius: 20px;
 }
 
-p
+.produtos h2
 {
-    text-align: center;
+    font-size: 30px; 
+    font-weight: bold;  
 }
 
-#missao
+.produtos li:hover
+{
+    border-color:  #2d47da;
+    
+}
+
+.produtos li:hover h2
+{
+    font-size: 35px;    
+}
+
+.produtos li:active
+{
+    border-color:  #8d159c;    
+}
+
+.produtoDescricao
 {
     font-size: 20px;
 }
 
-em strong
+.produtoPreco
 {
-    color:rgb(192, 111, 192);
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
 }
 
-.beneficios
+footer
 {
-    background: #ffffff;
+    text-align: center;
+    background: url(Imagens/bg.jpg);
     padding: 20px;
 }
-
-.itensBeneficios
+.copyright
 {
-    font-style: italic;
+    color: #ffffff;
+    margin-top: 20px;    
 }
 
-ul
+main
 {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    width: 940px;
+    margin: 0 auto;
 }
-.imagemBeneficios
+
+form
 {
-    width: 50%;
-    
+    margin: 40px 0;
+}
+
+form label
+{
+    font-size: 20px;
+    margin: 10px 0;
+    display: block;
+}
+
+form input
+{
+    display: block;
+    padding: 10px 25px;
+    margin: 10px 0;
+}
+
+form textarea
+{
+    padding: 10px;
 }
 
